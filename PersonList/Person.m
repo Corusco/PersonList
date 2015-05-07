@@ -15,7 +15,7 @@ static NSString * const jobKey = @"job";
 
 @implementation Person
 
-- (id)initWithDictionary:(NSDictionary *)dictionary {
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary {
     self = [super init];
     if (self) {
         self.imageName = dictionary[imageNameKey];
